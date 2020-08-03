@@ -30,13 +30,12 @@ public class ContinueCheckOut extends PageBase{
 	
 	public void ContinueCheckOutAndConfirmOrder() {
 		
-		ContinueBillingDetails.click();
+		//ContinueBillingDetails.click();
 		ContinueDeliveryDetails.click();
-		/* ContinueDeliveryMethods.click();
-		PaymentMethod.click();
+		ContinueDeliveryMethods.click();
 		PaymentMethod.click();
 		AcceptTerms.click();
-		ConfirmOrder.click();*/
+		ConfirmOrder.click();
 		
 		/*clickButton(ContinueBillingDetails);
 		clickButton(ContinueDeliveryDetails);
