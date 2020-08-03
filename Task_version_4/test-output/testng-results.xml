@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9674" started-at="2020-08-03T23:23:29 EET" finished-at="2020-08-03T23:23:38 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9674" started-at="2020-08-03T23:23:29 EET" finished-at="2020-08-03T23:23:38 EET">
+      <class name="tests.UserRegistrationTestWithDDTAndExcel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@23faf8f2]" name="setup" is-config="true" duration-ms="7767" started-at="2020-08-03T23:23:21 EET" finished-at="2020-08-03T23:23:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AssertTheProductValue()[pri:1, instance:tests.UserRegistrationTestWithDDTAndExcel@23faf8f2]" name="AssertTheProductValue" duration-ms="5732" started-at="2020-08-03T23:23:29 EET" finished-at="2020-08-03T23:23:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertTheProductValue -->
+        <test-method status="PASS" signature="UserCanRegisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@23faf8f2]" name="UserCanRegisterSuccessfully" duration-ms="3491" started-at="2020-08-03T23:23:35 EET" data-provider="ExcelData" depends-on-methods="tests.UserRegistrationTestWithDDTAndExcel.AssertTheProductValue" finished-at="2020-08-03T23:23:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zeinab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ragab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zeinab212@mailinator.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.218247743E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ Nacr city]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Cairo]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Egypt ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Al Qahirah]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Milinas@99S]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="Closedriver()[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@23faf8f2]" name="Closedriver" is-config="true" duration-ms="67" started-at="2020-08-03T23:23:38 EET" finished-at="2020-08-03T23:23:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closedriver -->
+      </class> <!-- tests.UserRegistrationTestWithDDTAndExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
