@@ -10,31 +10,39 @@ public class ContinueCheckOut extends PageBase{
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	@FindBy(id="button-payment-address")
-	public WebElement ContinueBillingDetails ;
+
 	
-	@FindBy(id="button-shipping-address")
+	@FindBy(xpath="//*[@id=\'button-shipping-address\']")
 	public WebElement ContinueDeliveryDetails ;
 	
 	@FindBy(id="button-shipping-method")
 	public WebElement ContinueDeliveryMethods ;
 	
+	@FindBy(name="agree")
+	public WebElement AcceptTerms ;
+
+	
 	@FindBy(id="button-payment-method")
 	public WebElement PaymentMethod ;
 	
-	@FindBy(name="agree")
-	public WebElement AcceptTerms ;
 	
-	@FindBy(id="button-confirm")
+	@FindBy(xpath="//*[@id='button-confirm']")
 	public WebElement ConfirmOrder ;
 	
 	public void ContinueCheckOutAndConfirmOrder() {
 		
-		//ContinueBillingDetails.click();
+		
 		ContinueDeliveryDetails.click();
 		ContinueDeliveryMethods.click();
-		PaymentMethod.click();
 		AcceptTerms.click();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		PaymentMethod.click();
+		
 		ConfirmOrder.click();
 		
 		/*clickButton(ContinueBillingDetails);

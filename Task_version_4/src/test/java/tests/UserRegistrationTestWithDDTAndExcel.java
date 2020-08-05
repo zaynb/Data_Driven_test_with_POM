@@ -91,6 +91,9 @@ public class UserRegistrationTestWithDDTAndExcel extends TestBase{
 		
 		ContinueCheckOutobj = new ContinueCheckOut(driver);
 		ContinueCheckOutobj.ContinueCheckOutAndConfirmOrder();
+		
+		ContineAfterConfirmOrderobj = new ContineAfterConfirmOrder(driver);
+		ContineAfterConfirmOrderobj.clickoncontinuebutton();
 
 
 
