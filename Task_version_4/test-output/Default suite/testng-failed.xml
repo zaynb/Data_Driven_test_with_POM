@@ -6,8 +6,9 @@
       <class name="tests.UserRegistrationTestWithDDTAndExcel">
         <methods>
           <include name="setup"/>
+          <include name="Closedriver"/>
           <include name="AssertTheProductValue"/>
-          <include name="UserCanRegisterSuccessfully" invocation-numbers="0"/>
+          <include name="UserCanRegisterSuccessfully"/>
         </methods>
       </class> <!-- tests.UserRegistrationTestWithDDTAndExcel -->
     </classes>

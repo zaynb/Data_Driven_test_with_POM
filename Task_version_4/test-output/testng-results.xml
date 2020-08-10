@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18488" started-at="2020-08-05T21:50:55 EET" finished-at="2020-08-05T21:51:14 EET">
+  <suite name="Default suite" duration-ms="17178" started-at="2020-08-10T19:43:55 EET" finished-at="2020-08-10T19:44:12 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18488" started-at="2020-08-05T21:50:55 EET" finished-at="2020-08-05T21:51:14 EET">
+    <test name="Default test" duration-ms="17178" started-at="2020-08-10T19:43:55 EET" finished-at="2020-08-10T19:44:12 EET">
       <class name="tests.UserRegistrationTestWithDDTAndExcel">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@5faeada1]" name="setup" is-config="true" duration-ms="8784" started-at="2020-08-05T21:50:47 EET" finished-at="2020-08-05T21:50:55 EET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@458c1321]" name="setup" is-config="true" duration-ms="6382" started-at="2020-08-10T19:43:49 EET" finished-at="2020-08-10T19:43:55 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AssertTheProductValue()[pri:1, instance:tests.UserRegistrationTestWithDDTAndExcel@5faeada1]" name="AssertTheProductValue" duration-ms="5969" started-at="2020-08-05T21:50:55 EET" finished-at="2020-08-05T21:51:01 EET">
+        <test-method status="PASS" signature="AssertTheProductValue()[pri:1, instance:tests.UserRegistrationTestWithDDTAndExcel@458c1321]" name="AssertTheProductValue" duration-ms="4786" started-at="2020-08-10T19:43:55 EET" finished-at="2020-08-10T19:44:00 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssertTheProductValue -->
-        <test-method status="PASS" signature="UserCanRegisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@5faeada1]" name="UserCanRegisterSuccessfully" duration-ms="11823" started-at="2020-08-05T21:51:02 EET" data-provider="ExcelData" depends-on-methods="tests.UserRegistrationTestWithDDTAndExcel.AssertTheProductValue" finished-at="2020-08-05T21:51:14 EET">
+        <test-method status="PASS" signature="UserCanRegisterSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@458c1321]" name="UserCanRegisterSuccessfully" duration-ms="11744" started-at="2020-08-10T19:44:01 EET" data-provider="ExcelData" depends-on-methods="tests.UserRegistrationTestWithDDTAndExcel.AssertTheProductValue" finished-at="2020-08-10T19:44:12 EET">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[zeinabragab5@mailinator.com]]>
+                <![CDATA[zeinabrara1@mailinator.com]]>
               </value>
             </param>
             <param index="3">
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRegisterSuccessfully -->
-        <test-method status="PASS" signature="Closedriver()[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@5faeada1]" name="Closedriver" is-config="true" duration-ms="324" started-at="2020-08-05T21:51:14 EET" finished-at="2020-08-05T21:51:14 EET">
+        <test-method status="PASS" signature="Closedriver()[pri:0, instance:tests.UserRegistrationTestWithDDTAndExcel@458c1321]" name="Closedriver" is-config="true" duration-ms="53" started-at="2020-08-10T19:44:12 EET" finished-at="2020-08-10T19:44:12 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closedriver -->

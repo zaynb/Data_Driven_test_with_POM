@@ -11,21 +11,23 @@ import org.testng.annotations.BeforeSuite;
 public class TestBase {
 
 	public static WebDriver driver;
+	String driverPath=System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe";
+
 
 	@BeforeSuite
 
 	public void setup() {
-
-		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
-		driver = new ChromeDriver();
+	
+		System.setProperty("webdriver.chrome.driver", driverPath);
+         driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://tutorialsninja.com/demo");
 		driver.manage().window().maximize();
-	
-		
+
+
 	}
 
-@AfterSuite
+	@AfterSuite
 
 	public void Closedriver() {
 
